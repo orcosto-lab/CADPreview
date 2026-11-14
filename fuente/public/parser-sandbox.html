@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Lector de DWG (página aislada)</title>
+  </head>
+  <body>
+    <!-- Página "sandbox" de la extensión (permite unsafe-eval, que LibreDWG necesita). Hace de worker falso. -->
+    <script src="./sandbox-shim.js"></script>
+    <script type="module" src="./workers/libredwg-parser-worker.js"></script>
+  </body>
+</html>

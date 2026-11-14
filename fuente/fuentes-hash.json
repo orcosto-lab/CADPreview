@@ -1,0 +1,487 @@
+[
+  {
+    "nombre": "fonts/@extfont2.shx",
+    "bytes": 490881,
+    "sha256": "0bea1627b7d08be189ccf72f5f5313460aec928610b443124117a49ce3e782b3"
+  },
+  {
+    "nombre": "fonts/AcadEref.shx",
+    "bytes": 823,
+    "sha256": "f6717d59775649bd351225351d3bcb62bbee7509bd5f12e73780b70b2b63545e"
+  },
+  {
+    "nombre": "fonts/aehalf.shx",
+    "bytes": 13743,
+    "sha256": "4fdcff344c5e75240eb25a6bee09e6d0928033d205cfb66407178cfc366b31ee"
+  },
+  {
+    "nombre": "fonts/AIGDT.ttf",
+    "bytes": 28100,
+    "sha256": "4786192733cdaf3c4ea8d6b8b4bb088687d6ad51de7f999af2df2b345142bae8"
+  },
+  {
+    "nombre": "fonts/AMDTSymbols.shx",
+    "bytes": 1217,
+    "sha256": "321a7b66f3e85d127738bc203f78a7e0cc44ac616a722d9c5b21ab7d722de48c"
+  },
+  {
+    "nombre": "fonts/AMGDT DWE Edits.shx",
+    "bytes": 8462,
+    "sha256": "505610daca34aa86b77d8de4b1903b179c3c7eb7b4d15ba82607d7b03fce1134"
+  },
+  {
+    "nombre": "fonts/amgdt.shx",
+    "bytes": 5419,
+    "sha256": "ea6a91de27922f33dc6bd0e34388b503d4f73df98ba0a84bb869d1f58e51bc87"
+  },
+  {
+    "nombre": "fonts/AMGDTANS DWE Edits.shx",
+    "bytes": 8313,
+    "sha256": "99205e75eccaf139b5b9711b8e4d55d5d7cf9473f7479ca6a1c507b0f74c06c5"
+  },
+  {
+    "nombre": "fonts/amgdtans.shx",
+    "bytes": 5088,
+    "sha256": "3c3713461bd38445815cc46ca75296747ba983ccd246a74e2ca627dda6efba8b"
+  },
+  {
+    "nombre": "fonts/arial.woff",
+    "bytes": 177132,
+    "sha256": "2de77c0bba01187df214f3f8c5ee229617706182c29f6a46a9a3d5d16c8f8226"
+  },
+  {
+    "nombre": "fonts/bigfont.shx",
+    "bytes": 324294,
+    "sha256": "7e289a17c00867afaff529165d45bfb01b6f93e5f92e7e1180c5ccc70cff53c6"
+  },
+  {
+    "nombre": "fonts/bold.shx",
+    "bytes": 10550,
+    "sha256": "4d03ff3e64d05b8910cc84f16c9729d71379dc263bd62d6a3b222fb957beb313"
+  },
+  {
+    "nombre": "fonts/CDM_NC.shx",
+    "bytes": 7537,
+    "sha256": "61a42360a2df59a422c1b9663f0774c72e304776c6880ece697ba3923f602b6c"
+  },
+  {
+    "nombre": "fonts/Cdm.shx",
+    "bytes": 3930,
+    "sha256": "ef2723058a12aada80cf31f104ba7fc24c7cc6ef95baabfe148b811bf2d0de01"
+  },
+  {
+    "nombre": "fonts/chineset.shx",
+    "bytes": 665117,
+    "sha256": "48cec34ed7df94cd259d2b59bb0dcaf0d797ba0e02c334e05681886c1dfd6a3d"
+  },
+  {
+    "nombre": "fonts/complex.shx",
+    "bytes": 30486,
+    "sha256": "69ffdd1cb63e964686185dc8c17c13b3e04b6572d7c98e5fb4a5999dc177a274"
+  },
+  {
+    "nombre": "fonts/dim.shx",
+    "bytes": 4276,
+    "sha256": "2db1302b8c29108d4cbd94ad0076b607aa18c8a4bfb67f411e524810e29c3a5b"
+  },
+  {
+    "nombre": "fonts/extfont.shx",
+    "bytes": 436560,
+    "sha256": "a7a12bd3ff0d20755c140255c3f07d59a87e283c3f44bf43ddd9b765bf72c576"
+  },
+  {
+    "nombre": "fonts/extfont2.shx",
+    "bytes": 490871,
+    "sha256": "7056ac3cfa9d435afa49d7fc5d774667044e42662f231d4cd0a1ee245195cba2"
+  },
+  {
+    "nombre": "fonts/exthalf2.shx",
+    "bytes": 30122,
+    "sha256": "8bce6790f6d95357260334594bd7a71647c568437d0930e223efa28e813067be"
+  },
+  {
+    "nombre": "fonts/extslim2.shx",
+    "bytes": 30498,
+    "sha256": "ff190ef49ddfdc962435f299d54c19c2d4b92f2e6d98f43e5939e42b7da52194"
+  },
+  {
+    "nombre": "fonts/g12f13.shx",
+    "bytes": 3608,
+    "sha256": "f26329987b4b75b632c2d5f0801680f3ee0385ee2204eda90745d4dad0227d62"
+  },
+  {
+    "nombre": "fonts/g13f12d.shx",
+    "bytes": 5131,
+    "sha256": "e8c2eebfc3bc21ebb9cde4a39183d953a9163e19af17a00cde7e1c30e32a2f60"
+  },
+  {
+    "nombre": "fonts/g13f12w.shx",
+    "bytes": 5116,
+    "sha256": "cb3490d61ac854e34cc2e880d15ad6c0debd55b19c3b0e1cd58ee97af0884757"
+  },
+  {
+    "nombre": "fonts/gbcbig.shx",
+    "bytes": 902841,
+    "sha256": "b6d7f2c5e3057840a63433ee78a49d59fbd030c999d706f7368a14d52b2a4150"
+  },
+  {
+    "nombre": "fonts/gbeitc.shx",
+    "bytes": 4911,
+    "sha256": "5bb2466b3370d4200358729531c7492dc859887aff2475f29d103cfc8893ec80"
+  },
+  {
+    "nombre": "fonts/gbenor.shx",
+    "bytes": 5186,
+    "sha256": "256a35002a3fc51dd233a2d680a8e812129f443936374cdb1b408c94c2345b2e"
+  },
+  {
+    "nombre": "fonts/gbgdt.woff",
+    "bytes": 1840,
+    "sha256": "78da0c6bc169a99bac28790bba6d113abea3091fdc16adcdf3934064009db0f2"
+  },
+  {
+    "nombre": "fonts/gbhzfs.shx",
+    "bytes": 1167625,
+    "sha256": "70cba426662a2ea8dbc6fde19d7ecd1e4867551ee2a37e88af83c9bc10efa186"
+  },
+  {
+    "nombre": "fonts/gdt.shx",
+    "bytes": 5051,
+    "sha256": "d4a34b7f514fdcc60452334ff228563df4962f8cb431c83a291a668f392383ef"
+  },
+  {
+    "nombre": "fonts/GENISO.shx",
+    "bytes": 23778,
+    "sha256": "0a00fac8436e717aee99c70a69252a995aa74ec8cf18b4b73d1f1619a747961d"
+  },
+  {
+    "nombre": "fonts/geniso12.shx",
+    "bytes": 3608,
+    "sha256": "f26329987b4b75b632c2d5f0801680f3ee0385ee2204eda90745d4dad0227d62"
+  },
+  {
+    "nombre": "fonts/GENLTSHP.shx",
+    "bytes": 77,
+    "sha256": "35b746481b73d54b433a0f6b2bba4404e85a033796c65a4e6e3913e85b3dd67d"
+  },
+  {
+    "nombre": "fonts/GENPRESE.shx",
+    "bytes": 1610,
+    "sha256": "2cc7b2eacba24b2efcde4391daeed911e8a8157370a98126c39cf73db8731a6c"
+  },
+  {
+    "nombre": "fonts/gothice.shx",
+    "bytes": 37923,
+    "sha256": "6fd4d3c24196876690185dd9bffa63f388fe2c9508cc9bc6ef46cade3b26b2e5"
+  },
+  {
+    "nombre": "fonts/gothicg.shx",
+    "bytes": 36618,
+    "sha256": "f2261fd46a39b3e5b458244bfcccdabb9ca400632a04cb9be7c055c53909b669"
+  },
+  {
+    "nombre": "fonts/gothici.shx",
+    "bytes": 33741,
+    "sha256": "34afcf8c9243fd847f48b9441732edd0363401e546564ef89f909fbc1b166207"
+  },
+  {
+    "nombre": "fonts/greekc.shx",
+    "bytes": 11419,
+    "sha256": "7d5109d9c9598c971443cae1ccce7bc99d9dae66cf025e8fabf5087fd079d55e"
+  },
+  {
+    "nombre": "fonts/greeks.shx",
+    "bytes": 8089,
+    "sha256": "949edcb2d3e0cefd2e812ae8d9513f5bef6e715ad32b40a1eaf9e7da56c6541c"
+  },
+  {
+    "nombre": "fonts/hand1.shx",
+    "bytes": 9677,
+    "sha256": "a34e0350a5cbe5b964e840852e5a138651161cf3b2fb858eb268a61570ab1f13"
+  },
+  {
+    "nombre": "fonts/hztxt.shx",
+    "bytes": 1171617,
+    "sha256": "95f9ec57eede9095a2dc738ef5034887dc42c3dece048724bc602ff7994144c7"
+  },
+  {
+    "nombre": "fonts/iges1001.shx",
+    "bytes": 4441,
+    "sha256": "e7b3a4de69bb74f8b37317d03d5b11e9cea29b5322f89f6c2b4268e7f69c0561"
+  },
+  {
+    "nombre": "fonts/iges1002.shx",
+    "bytes": 4437,
+    "sha256": "e18603b28bbb1d477e397c1d609cb359e846e91397602d7d4de99075ed80e4d2"
+  },
+  {
+    "nombre": "fonts/iges1003.shx",
+    "bytes": 4432,
+    "sha256": "c169ce46ffd887c839b5c66b4bb51c09414571a90071d6c55599105c6a4561b5"
+  },
+  {
+    "nombre": "fonts/intecad.shx",
+    "bytes": 1327090,
+    "sha256": "1ac34137f95de4eceaf0cb965f5656d22d7c6996815475ca2ef71cc461e7b9e0"
+  },
+  {
+    "nombre": "fonts/ISO.shx",
+    "bytes": 4063,
+    "sha256": "ea02502d974a72a1dd13414879950868b3b7fa4cb013a0ba8556fca609e4a7ec"
+  },
+  {
+    "nombre": "fonts/isocp.shx",
+    "bytes": 7322,
+    "sha256": "6708468108f41f9a5c8ce1c62184cf8955793a65bd1dc6c3df6bc3042f58a799"
+  },
+  {
+    "nombre": "fonts/isocp2.shx",
+    "bytes": 7271,
+    "sha256": "4ee63c0929a93c0fb1ea08c98d2e7e5c9b79fdda7e84a3fdd3ed7255dab5632c"
+  },
+  {
+    "nombre": "fonts/isocp3.shx",
+    "bytes": 7271,
+    "sha256": "339c476f2cd9460bc198d46b26b8c705f7a0f329332dca59c19cd12d93e84350"
+  },
+  {
+    "nombre": "fonts/isoct.shx",
+    "bytes": 7243,
+    "sha256": "b51c1237c4594b9c0b0557f95b083087fd9fca96b704696da9a817db1ba8659a"
+  },
+  {
+    "nombre": "fonts/isoct2.shx",
+    "bytes": 7243,
+    "sha256": "039b73f7e58fdd888e8f9a4752285512c4d817e3f74612747c329307ba9bc18b"
+  },
+  {
+    "nombre": "fonts/isoct3.shx",
+    "bytes": 7242,
+    "sha256": "882c99ce46195b285a4e6687b7fd968b7d8b95a7bec910f5d28903896b4ba78e"
+  },
+  {
+    "nombre": "fonts/italic.shx",
+    "bytes": 27325,
+    "sha256": "387575cac2cb16d2af0a930fe8894c8ea63229c7ecf8a570c5bd9e9432626e59"
+  },
+  {
+    "nombre": "fonts/ITALIC8.shx",
+    "bytes": 27256,
+    "sha256": "825deab1284332078499be5c489a6edd2396bc910b0c03fa65081db4f212bab0"
+  },
+  {
+    "nombre": "fonts/italicc.shx",
+    "bytes": 26625,
+    "sha256": "cd07fdfebdd74f9692c2812eaf0ea342676abb63c9f39c6f43e95e0f29ec6d97"
+  },
+  {
+    "nombre": "fonts/italict.shx",
+    "bytes": 37709,
+    "sha256": "f8fe9d898d452d9237581375c8c342508d16b59a67e21c3469403945734c53dc"
+  },
+  {
+    "nombre": "fonts/ltypeshp.shx",
+    "bytes": 2138,
+    "sha256": "b2ae9d94343655f9577e20a1e38cee92139e2265a522b2016b937c86f5894375"
+  },
+  {
+    "nombre": "fonts/monotxt.shx",
+    "bytes": 8816,
+    "sha256": "fdfc9cd1a6e8379e38fb7238579bb135cff91b5e717d21569395a3f40387ea5f"
+  },
+  {
+    "nombre": "fonts/MONOTXT8.shx",
+    "bytes": 15184,
+    "sha256": "93b9df3cad4fcdd5103c858838405092e6083cedf46cd423ce24202c4be5bd50"
+  },
+  {
+    "nombre": "fonts/noto-sans-kr.woff",
+    "bytes": 209712,
+    "sha256": "5125a20ef67a64fd766fb982221fabe4d04f464b33223665cab59547b63b410f"
+  },
+  {
+    "nombre": "fonts/pkpmeng.shx",
+    "bytes": 21181,
+    "sha256": "bf67a6d77fee9bb534dd5b6d2bf48f6e2769e28d4797ffaa72de53bef5fd872f"
+  },
+  {
+    "nombre": "fonts/romanc.shx",
+    "bytes": 23057,
+    "sha256": "43ac29c819003dbee1dcee4243af1bd481daa76fe3f5f48c96fc92521abec262"
+  },
+  {
+    "nombre": "fonts/romand.shx",
+    "bytes": 22534,
+    "sha256": "8510f0b3785e944d64a73d5ebab2631f3f8d84e6aaf1c29e77d079435262e314"
+  },
+  {
+    "nombre": "fonts/romans.shx",
+    "bytes": 16086,
+    "sha256": "b22f4abadf72c9184c6c33dbf159b504cc09185a4c24102223afbe58b400f9bd"
+  },
+  {
+    "nombre": "fonts/romant.shx",
+    "bytes": 39728,
+    "sha256": "f213529c6938339f3671145c8994d077073e6d6a9d620fdad5e52d7fcdfce2f9"
+  },
+  {
+    "nombre": "fonts/scriptc.shx",
+    "bytes": 26587,
+    "sha256": "f17826d8a42d91cfe188b9a96aaa41d09ad1a1a39c86347af9376ded84ed66f6"
+  },
+  {
+    "nombre": "fonts/scripts.shx",
+    "bytes": 20244,
+    "sha256": "b290ed998278e4816e8ededfbde67843011df0e0921212d73da955c77912f2f8"
+  },
+  {
+    "nombre": "fonts/simhei.woff",
+    "bytes": 3856024,
+    "sha256": "350ec4884a980eb9ccbf0c5f6a270045734c1a04392b1ae03a33724fa72a322f"
+  },
+  {
+    "nombre": "fonts/simkai.woff",
+    "bytes": 1645448,
+    "sha256": "ecb0e451ef139de768bdd9cd9d901dc12390936fd8b6909943b4e505e7f424b8"
+  },
+  {
+    "nombre": "fonts/simplex.shx",
+    "bytes": 17816,
+    "sha256": "30dc50fa379935e4d7eb6e60041fa070a11fba6deac337a2fa9e34dcb5bfbcc1"
+  },
+  {
+    "nombre": "fonts/SIMPLEX8.shx",
+    "bytes": 13813,
+    "sha256": "007902e04275e2ce2013389b307da5ea0bc0f9788ae524f37ec4f60d099db979"
+  },
+  {
+    "nombre": "fonts/simsun.woff",
+    "bytes": 6431956,
+    "sha256": "7d5b337b4f5e4c9f79bce9f34d520c3586d7e0972c11d4e4f4ae3021e9741cea"
+  },
+  {
+    "nombre": "fonts/SJQY.woff",
+    "bytes": 2732,
+    "sha256": "9514df038e4651cfa536594179cea4261862033f64373463830084421c9231aa"
+  },
+  {
+    "nombre": "fonts/spec_bar.shx",
+    "bytes": 1767,
+    "sha256": "2e7aa8a151c4de85444a72e1ba3b5094d94c654327a57ef178bdcc66da10e7b9"
+  },
+  {
+    "nombre": "fonts/spec_sl.shx",
+    "bytes": 1536,
+    "sha256": "2ffbeceab3f468230658c4c1876c9f304a76baea9d24ba8a7a27f114d64a3f95"
+  },
+  {
+    "nombre": "fonts/special.shx",
+    "bytes": 1536,
+    "sha256": "2ffbeceab3f468230658c4c1876c9f304a76baea9d24ba8a7a27f114d64a3f95"
+  },
+  {
+    "nombre": "fonts/syastro.shx",
+    "bytes": 6841,
+    "sha256": "58eb497a67d01a4fda1223b4e69a5e447db08e1daa8134f6ba5c86446567f7ca"
+  },
+  {
+    "nombre": "fonts/symap.shx",
+    "bytes": 6149,
+    "sha256": "43301fa931f53d5e4f6a900967ad182cd882791b8be1cd70eed2bd30d177a4a1"
+  },
+  {
+    "nombre": "fonts/symath.shx",
+    "bytes": 6070,
+    "sha256": "df0906b0e27119b13c859a6616ec8b959da3a379eafcbf0cac3e291ceef44b7e"
+  },
+  {
+    "nombre": "fonts/symeteo.shx",
+    "bytes": 5084,
+    "sha256": "73d45631fe8791fadb5728b7327f316d8e76e855f1558874a821ae7e69a238a5"
+  },
+  {
+    "nombre": "fonts/symusic.shx",
+    "bytes": 6944,
+    "sha256": "55cb49047947f9a072e331224a2f82024ed65765a740c43063507faee3f3f2d4"
+  },
+  {
+    "nombre": "fonts/tahoma.woff",
+    "bytes": 178204,
+    "sha256": "4c41ca6434d93563ba35c0e70254c4392c54ba8d744d65f5978c1497da882b01"
+  },
+  {
+    "nombre": "fonts/times.shx",
+    "bytes": 33389,
+    "sha256": "7c4a8030179c571ed41a6c899f6d8ce261ac16125c3e364251e6a1528da4a07f"
+  },
+  {
+    "nombre": "fonts/timesout.shx",
+    "bytes": 15703,
+    "sha256": "4751c597f0a2a0f3eb3549f60d048135081749f82dcee2cae1dc59cedbbe3e1f"
+  },
+  {
+    "nombre": "fonts/tssdchn.shx",
+    "bytes": 1183546,
+    "sha256": "6238ca772ba43fdfae711cd4134f2a55931da48a66fc685e893d1a4f3a040fc9"
+  },
+  {
+    "nombre": "fonts/tssdeng.shx",
+    "bytes": 16877,
+    "sha256": "ad342b3a0ae26923c7a4fd1f7f885bdd5cddac8d10b48cbd41c490bfe05745b5"
+  },
+  {
+    "nombre": "fonts/txt.shx",
+    "bytes": 8489,
+    "sha256": "2280abc0bc7b827c21ae43a651a8dfbc14873550ff61b123a72773a5dbce0d8f"
+  },
+  {
+    "nombre": "fonts/verdana.woff",
+    "bytes": 74492,
+    "sha256": "df8f77e057a44824d13cee86cb34246fae1d7fdc0394e79fa22a3e3483df6ea4"
+  },
+  {
+    "nombre": "fonts/whgdtxt.shx",
+    "bytes": 223699,
+    "sha256": "58e4e5d098631afb2047f46858942d59ee84d1a7a4eeb4486628ed9527048286"
+  },
+  {
+    "nombre": "fonts/whgtxt.shx",
+    "bytes": 196069,
+    "sha256": "e79cb17836aae79fc58469aa81d556cd042035351548d9a04ae9c1b476c3c225"
+  },
+  {
+    "nombre": "fonts/whtgtxt.shx",
+    "bytes": 648211,
+    "sha256": "405547efafcfd842473dd0ab5c15e378bfa7d4e5786a80901b06af3d66b1bbfe"
+  },
+  {
+    "nombre": "fonts/whtmtxt.shx",
+    "bytes": 916632,
+    "sha256": "9f813e92cf9024049d1a0863fb4dcdd1f285cc1fe88659b23b70fa2db7ca43a8"
+  },
+  {
+    "nombre": "fonts/yjkchn.shx",
+    "bytes": 1164629,
+    "sha256": "fe6b3c714b8202b352829d0d399286aefe1d2a7bc4e54e55df62717691666d04"
+  },
+  {
+    "nombre": "fonts/yjkeng.shx",
+    "bytes": 20857,
+    "sha256": "6a9d55d483bf7f8019e8177f0c1eab1ec722fb9d6cd9e5289142d9d03cc6de68"
+  },
+  {
+    "nombre": "fonts/zjdz-s.shx",
+    "bytes": 5883,
+    "sha256": "e9155132de49f31636c06c31ffc918d2ef8b531f9022605bed7b6b01bfd7f9ad"
+  },
+  {
+    "nombre": "fonts/zjdz.shx",
+    "bytes": 530403,
+    "sha256": "15524ede05b92912193a298e812c278fbae06373eee7c1195c5129d00c4e87be"
+  },
+  {
+    "nombre": "fonts/fonts.json",
+    "bytes": 9819,
+    "sha256": "cb2344fa2f91648f3cb44b7f5a1e75342da5fa578d640de8e0500b12697246a0"
+  }
+]

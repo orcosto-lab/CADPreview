@@ -1,0 +1,8 @@
+{
+  "name": "cadpreview-pruebas",
+  "private": true,
+  "description": "Pruebas automáticas de CADPreview (Playwright + Brave/Chrome)",
+  "devDependencies": {
+    "playwright-core": "1.65.0"
+  }
+}
