@@ -81,6 +81,7 @@ run('npx vite build', BUILD, { CADPREVIEW_OUT: path.join(EXT, 'viewer') });
 console.log('5/5 Script de contenido y manifest…');
 for (const viejo of ['content.js', 'ionos.js']) { fs.rmSync(path.join(EXT, viejo), { force: true }); fs.rmSync(path.join(EXT_TEST, viejo), { force: true }); } // restos de versiones anteriores
 for (const f of ['bridge.js', 'core.js', 'gmail.js', 'ox.js', 'drive.js', 'background.js']) fs.copyFileSync(path.join(FUENTE, 'extension', f), path.join(EXT, f));
+fs.cpSync(path.join(FUENTE, 'extension', 'icons'), path.join(EXT, 'icons'), { recursive: true });   // iconos del plugin (16, 32, 48 y 128 px)
 const envOx = process.argv.includes('--ox-generico') ? { CADPREVIEW_OX_GENERICO: '1' } : {};
 run(`node "${path.join(FUENTE, 'extension', 'generar-manifest.cjs')}" "${EXT}"`, FUENTE, envOx);
 
@@ -88,6 +89,7 @@ if (process.argv.includes('--prueba')) {
   fs.mkdirSync(EXT_TEST, { recursive: true });
   for (const f of ['bridge.js', 'core.js', 'gmail.js', 'ox.js', 'drive.js', 'background.js']) fs.copyFileSync(path.join(EXT, f), path.join(EXT_TEST, f));
   run(`node "${path.join(FUENTE, 'extension', 'generar-manifest.cjs')}" "${EXT_TEST}" "<all_urls>"`, FUENTE);
+  fs.cpSync(path.join(FUENTE, 'extension', 'icons'), path.join(EXT_TEST, 'icons'), { recursive: true });
   const enlace = path.join(EXT_TEST, 'viewer');
   if (!fs.existsSync(enlace)) fs.symlinkSync(path.join(EXT, 'viewer'), enlace, 'junction');
   console.log('   ext-test listo: ' + EXT_TEST);

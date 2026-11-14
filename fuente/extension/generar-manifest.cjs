@@ -48,6 +48,8 @@ const manifest = {
   version,
   description: 'Vista previa de archivos DWG y DXF en Gmail, Google Drive e IONOS/OX: miniatura al instante y botón Renderizar para el dibujo completo.',
   key: b64,
+  icons: { 16: 'icons/icon16.png', 32: 'icons/icon32.png', 48: 'icons/icon48.png', 128: 'icons/icon128.png' },
+  action: { default_title: 'CADPreview', default_icon: { 16: 'icons/icon16.png', 32: 'icons/icon32.png', 48: 'icons/icon48.png', 128: 'icons/icon128.png' } },
   background: { service_worker: 'background.js' },
   host_permissions: HOSTS_DRIVE,
   content_security_policy: {
