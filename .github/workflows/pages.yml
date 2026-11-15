@@ -1,0 +1,42 @@
+# Publica la versión móvil (PWA) de CADPreview en GitHub Pages cada vez que cambia el código del visor.
+# Activación única: Settings → Pages → Build and deployment → Source: "GitHub Actions".
+name: Publicar PWA en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['fuente/**', 'construir-pwa.mjs', '.github/workflows/pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node construir-pwa.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: trabajo-pwa/sitio
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

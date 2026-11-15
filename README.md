@@ -65,6 +65,15 @@ Opciones de `construir.mjs`:
 
 Las dependencias salen de npm con las versiones fijadas en `fuente/package-lock.json` (mlightcad `1.8.0-preview.3`, una versión preliminar; dos de ellas se instalan con `--legacy-peer-deps` porque sus versiones de pares no coinciden con las probadas).
 
+## Versión móvil (PWA)
+
+Además de la extensión, el repositorio incluye una **versión para el móvil**: el mismo visor como página web instalable, con un botón para elegir un `.dwg` o `.dxf` y, una vez instalada, la opción **Compartir con CADPreview** desde otras apps (Gmail, Drive, el gestor de archivos). Todo se procesa en el dispositivo; el archivo no se sube a ningún sitio.
+
+- **Compilar:** `node construir-pwa.mjs` (Node 20 o superior); el sitio queda en `trabajo-pwa/sitio`. No incluye fuentes tipográficas: el visor las baja del CDN la primera vez.
+- **Publicar:** el flujo `.github/workflows/pages.yml` lo compila y lo sube a GitHub Pages. Se activa una sola vez en *Settings → Pages → Source: GitHub Actions*.
+- **Instalar en Android:** abre la dirección de Pages en Chrome y usa *Instalar aplicación* (o *Añadir a la pantalla de inicio*). El service worker y la instalación solo funcionan en HTTPS (o en `localhost`).
+- **Límites:** solo probada la apertura de archivos y el servicio de compartir simulado en un Chrome de escritorio; en un móvil real falta comprobar que Android ofrezca CADPreview para los `.dwg` (depende del tipo MIME con que la app de origen los comparta). No hay miniatura incrustada ni integración en el correo: eso es cosa de la extensión.
+
 ## Privacidad
 
 - No hay servidor propio, telemetría ni analítica. En Gmail y OX el adjunto se lee con `fetch` desde la página del correo con tu sesión; en Drive lo lee el service worker de la extensión con la sesión del navegador (ver abajo). En los dos casos se procesa en el navegador.

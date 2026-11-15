@@ -1,0 +1,35 @@
+{
+  "id": "./",
+  "name": "CADPreview",
+  "short_name": "CADPreview",
+  "description": "Vista previa de archivos DWG y DXF en el móvil. Todo se procesa en el dispositivo.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#202124",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "share_target": {
+    "action": "./compartir",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "archivo",
+          "accept": [
+            ".dwg", ".dxf",
+            "application/acad", "application/x-acad", "application/autocad_dwg", "application/dwg",
+            "image/vnd.dwg", "image/x-dwg",
+            "application/dxf", "application/x-dxf", "image/vnd.dxf", "image/x-dxf",
+            "application/octet-stream"
+          ]
+        }
+      ]
+    }
+  }
+}
